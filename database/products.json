@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "product_name": "Liners - Baking Cups",
+        "price": 298,
+        "stock": true
+    },
+    {
+        "id": 2,
+        "product_name": "Veal - Sweetbread",
+        "price": 6552,
+        "stock": false
+    },
+    {
+        "id": 3,
+        "product_name": "Oneshot Automatic Soap System",
+        "price": 6667,
+        "stock": true
+    },
+    {
+        "id": 4,
+        "product_name": "Cookies - Fortune",
+        "price": 882,
+        "stock": true
+    },
+    {
+        "id": 5,
+        "product_name": "Oil - Truffle, White",
+        "price": 5900,
+        "stock": false
+    },
+    {
+        "id": 6,
+        "product_name": "Appetizer - Smoked Salmon / Dill",
+        "price": 1263,
+        "stock": true
+    },
+    {
+        "id": 7,
+        "product_name": "Petite Baguette",
+        "price": 5366,
+        "stock": false
+    },
+    {
+        "id": 8,
+        "product_name": "Chocolate - Liqueur Cups With Foil",
+        "price": 2797,
+        "stock": false
+    },
+    {
+        "id": 9,
+        "product_name": "Juice - Apple, 341 Ml",
+        "price": 3654,
+        "stock": false
+    },
+    {
+        "id": 10,
+        "product_name": "Grouper - Fresh",
+        "price": 1266,
+        "stock": false
+    },
+    {
+        "id": 11,
+        "product_name": "Milk - Condensed",
+        "price": 5998,
+        "stock": false
+    },
+    {
+        "id": 12,
+        "product_name": "Straw - Regular",
+        "price": 9688,
+        "stock": false
+    },
+    {
+        "id": 13,
+        "product_name": "Beer - Alexander Kieths, Pale Ale",
+        "price": 4173,
+        "stock": false
+    },
+    {
+        "id": 14,
+        "product_name": "Rice - Basmati",
+        "price": 1036,
+        "stock": true
+    },
+    {
+        "id": 15,
+        "product_name": "Blueberries - Frozen",
+        "price": 2462,
+        "stock": true
+    },
+    {
+        "id": 16,
+        "product_name": "Ecolab - Lime - A - Way 4/4 L",
+        "price": 8092,
+        "stock": false
+    },
+    {
+        "id": 17,
+        "product_name": "Vermouth - Sweet, Cinzano",
+        "price": 6639,
+        "stock": false
+    },
+    {
+        "id": 18,
+        "product_name": "Kohlrabi",
+        "price": 7868,
+        "stock": false
+    },
+    {
+        "id": 19,
+        "product_name": "Mushroom - Morel Frozen",
+        "price": 7208,
+        "stock": false
+    },
+    {
+        "id": 20,
+        "product_name": "Syrup - Monin, Amaretta",
+        "price": 5486,
+        "stock": false
+    }
+]
