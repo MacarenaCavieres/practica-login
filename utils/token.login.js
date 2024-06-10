@@ -9,11 +9,3 @@ export const generateToken = (user, secretKey, expiresIn) => {
         { expiresIn }
     );
 };
-
-export const verifyToken = (token, secretKey) => {
-    return new Promise((resolve, reject) => {
-        jwt.verify(token, secretKey, (err, data) => {
-            return err ? reject(err) : resolve(data);
-        });
-    });
-};

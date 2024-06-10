@@ -1,6 +1,6 @@
 import "dotenv/config";
 import { Login } from "../models/login.model.js";
-import { generateToken, verifyToken } from "../utils/token.login.js";
+import { generateToken } from "../utils/token.login.js";
 
 const secretKey = process.env.SECRET_KEY;
 
@@ -24,10 +24,6 @@ const getOneUser = async (req, res) => {
     }
 };
 
-// const postToken = (req,res)=>{
-//     const {username,password} = req.body
-
-// }
 export const loginMethod = {
     getOneUser,
 };
