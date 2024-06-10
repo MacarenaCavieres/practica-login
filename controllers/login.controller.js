@@ -8,15 +8,16 @@ const getOneUser = async (req, res) => {
     const { username, password } = req.body;
 
     try {
-        const data = await Login.getUser(username, password);
+        const user = await Login.getUser(username, password);
 
-        if (typeof data === "string") return res.send(data);
+        if (typeof user === "string") return res.send(user);
 
         const token = generateToken(username, secretKey, "5m");
 
-        return res.header("authorization", token).json({
+        return res.header("authorization", token).send({
             message: "Usuario autenticado",
             token,
+            href: `http://localhost:3000/api/v1/products?token=${token}`,
         });
     } catch (error) {
         console.error(error);

@@ -8,11 +8,11 @@ export const validateToken = (req, res, next) => {
 
     if (!token) return res.send("Acceso denegado");
 
-    jwt.verify(token, secretKey, (err, data) => {
+    jwt.verify(token, secretKey, (err, user) => {
         if (err) {
             return res.send("Acceso denegado, token expirado o incorrecto");
         } else {
-            req.username = data;
+            req.username = user;
             next();
         }
     });
